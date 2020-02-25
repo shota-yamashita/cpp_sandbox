@@ -19,7 +19,6 @@ int binary_search(const std::vector<int>& a, int seek) {
     return -1;
 }
 
-
 int linear_search(const std::vector<int>& a, int seek) {
     int n = a.size();
     for (int i = 0; i < n && a[i] <= seek; i++)
